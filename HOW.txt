@@ -1,0 +1,32 @@
+FIRST CREATE TWO FOLDERS FRONTEND AND BACKEND
+
+START FRONTEND
+(create a react project using npx create-react-app )
+
+create react component 
+
+download axios (npm i axios)
+
+const handleSubmit = async (e) =>{
+        e.preventDefault();
+
+        try{
+            await axios.post('copy the link in url after running backend index.js',Person);
+            alert('Person details submitted succesfully');
+        }catch(error)
+        {
+            alert('Error Connecting To Backend ! ',error);
+        }
+    }
+
+
+NOW GO TO BACKEND FOLDER AND ITILIAZE NODE
+
+install mongodb express cors
+npm install express mongodb cors
+
+create ur api
+
+run frintend 
+run backend
+
